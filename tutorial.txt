@@ -1,0 +1,38 @@
+Git & Github Steps
+
+
+
+Step 1 : Install git on local computer
+
+$ sudo apt-get install git-core
+
+Set username and give valid email id
+
+$ git config --global user.name “username”
+$ git config --global user.email “emailid”
+
+Step 2 : Open an account in github
+             Creat a new repository (repo eg : my_codes) in github
+
+Step 3 : Creat a local repository
+
+$ mkdir directory_name
+$ cd directory_name
+$ git init
+$ touch filename.extension
+
+Step 4 : Write content in the newly created file or copy paste content
+
+Step 5 : Adding and saving file in git
+
+$ git add filename.extension
+$ git commit -m “comment”
+$ git status
+
+Step 6 : upated file in github
+
+$ git remote add origin https://github.com/username/repository_name
+$ git push origin master
+
+
+
